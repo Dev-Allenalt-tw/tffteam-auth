@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to right, #111827, #1e3a8a);
+  color: #111;
+}
+
+input::placeholder {
+  color: #555;
+}
