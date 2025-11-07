@@ -8,8 +8,8 @@ export default function App() {
   const [isLogin, setIsLogin] = useState(true);
 
   return (
-    <div className="flex justify-center items-center min-h-screen bg-gradient-to-r from-gray-900 to-blue-800">
-      <div className="relative w-[800px] h-[450px] bg-white rounded-3xl overflow-hidden shadow-2xl">
+    <div className="flex justify-center items-center min-h-screen bg-gradient-to-br from-gray-900 via-black to-red-900">
+      <div className="relative w-[900px] h-[500px] bg-white rounded-3xl overflow-hidden shadow-2xl border border-gray-700">
         <AnimatePresence mode="wait">
           {isLogin ? (
             <motion.div
