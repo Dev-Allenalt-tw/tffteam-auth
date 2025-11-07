@@ -4,10 +4,6 @@
 
 body {
   font-family: 'Poppins', sans-serif;
-  background: linear-gradient(to right, #111827, #1e3a8a);
+  background: linear-gradient(to right, #1f1f1f, #400000);
   color: #111;
-}
-
-input::placeholder {
-  color: #555;
 }
